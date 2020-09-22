@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  padding: .5rem;
+  padding: 1rem;
 }
 
 img {
@@ -31,10 +31,9 @@ img {
   text-align: center;
 }
 
-h1{
+h1 {
   font-size: 2rem;
   margin: 0;
-  padding-top: 1rem;
 }
 
 .rock {
@@ -48,13 +47,113 @@ ul {
   flex-direction: row;
   justify-content: space-around;
   padding: 0;
-  margin: .5rem;
+  margin-top: 0;
+  font-size: 1.125rem;
 }
 
-li {
-  list-style-type: none;
+a {
   color: #3783a3;
   text-decoration: underline;
 }
 
-.banner
+li {
+  list-style-type: none;
+}
+
+.intro {
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+hr {
+  color: #e2e2e2;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.imgg {
+  padding-top: .5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.imitate {
+  margin-bottom: 1rem;
+  padding-bottom: .5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  margin: 0;
+  font-weight: bold;
+  padding-bottom: .5rem;
+}
+
+.btn {
+  display: inline-block;
+  border: .2rem solid #3783a3;
+  border-radius: .3rem;
+  text-decoration: none;
+  padding: .5em 1em .6em;
+  padding-right: 2.5rem;
+  color: #3783a3;
+  font-size: 1rem;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  header {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  .header {
+    text-align: left;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  article,
+  main {
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .img {
+    padding-top: .5rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .intro {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+}
