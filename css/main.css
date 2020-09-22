@@ -19,9 +19,42 @@ html {
 
 body {
   margin: 0;
+  padding: .5rem;
 }
 
 img {
   display: block;
   width: 100%;
 }
+
+.header {
+  text-align: center;
+}
+
+h1{
+  font-size: 2rem;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.rock {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  margin: .5rem;
+}
+
+li {
+  list-style-type: none;
+  color: #3783a3;
+  text-decoration: underline;
+}
+
+.banner
